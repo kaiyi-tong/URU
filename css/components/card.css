@@ -1,0 +1,44 @@
+.card{
+	width: 250px;
+	box-shadow: 5px 8px 28px rgba(0,0,0,0.2);
+	border-radius: 60px 20px;
+	/*竖变横排列*/
+	display: flex;
+	/* 几项横间距	*/
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+	margin: 10px;
+	/*fill up the space when never there is*/
+	flex-grow:1;
+	/*change all card size altogether--- flex-basis: 200px;*/
+}
+
+.card h3{
+	flex-grow: 1;
+	padding-right: 90px;
+	font-size:  18px;
+}
+
+.card img{
+	margin-left: 110px;
+}
+
+.couplealign{
+	padding-left: 20px;
+}
+.leftalign{
+	padding-left:20px;
+}
+
+.cards{
+	display: flex;
+	/*if doesnt fit into the grid, make whatever goes beyond the box go into next line, wrapped by the box*/
+	flex-wrap: wrap;}
+#grandma img{margin:10px;
+border-radius: 20px 5px;}
+
+.section{
+	display: flex;
+	margin-top: 30px;
+}
